@@ -11,6 +11,18 @@
       "city": "Mumbai",
       "country": "India",
       "daysNeeded": "5"
+    },
+    {
+      "id": 6.319310817441024,
+      "city": "New York",
+      "country": "Spain",
+      "daysNeeded": 4
+    },
+    {
+      "id": 0.5168715558121817,
+      "city": "Kolkata",
+      "country": "India",
+      "daysNeeded": 9
     }
   ]
 }
