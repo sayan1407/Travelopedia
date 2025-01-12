@@ -4,11 +4,7 @@ import Destination from './Destination';
 
 function DestinationList() {
     const {data,isLoading,isSuccess,isError,error} = useGetAllDestinationQuery()
-    const [deleteDestination] = useDeleteDestinationMutation(); 
-    const handleDeleteClick = (id) => {
-           console.log(id)
-           deleteDestination({id})
-    }
+    
     let content;
     if(isLoading){
           content = <p>Loading...</p>
