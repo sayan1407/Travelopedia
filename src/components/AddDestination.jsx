@@ -9,7 +9,7 @@ function AddDestination() {
     const handleSubmit = (e) => {
         e.preventDefault();
         addDestination({
-             id: (parseInt(Math.random() * 10) + 1).toString(), 
+             id: (parseInt(Math.random() * 1000) + 1).toString(), 
              city: newCity, 
              country : newCountry, 
              daysNeeded : parseInt(Math.random() *10) + 1 

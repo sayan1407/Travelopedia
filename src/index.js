@@ -5,16 +5,18 @@ import DestinationIndex from './components/DestinationIndex';
 import { ApiProvider } from '@reduxjs/toolkit/query/react';
 import { destinationAPI } from './api/destinationApi';
 import DestinationList from './components/DestinationList';
+import { Provider } from 'react-redux';
+import {store} from './Redux/store';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ApiProvider api={destinationAPI}>
+    <Provider store={store}>
     <Header/>
     <DestinationIndex/>
     <DestinationList/>
 
-    </ApiProvider>
+    </Provider>
     
   </React.StrictMode>
 );
