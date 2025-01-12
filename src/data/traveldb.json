@@ -1,16 +1,16 @@
 {
   "destination": [
     {
-      "id": "9",
+      "id": "7",
       "city": "Madrid",
       "country": "Spain",
-      "daysNeeded": 1
+      "daysNeeded": 5
     },
     {
       "id": "6",
-      "city": "Barcelona",
-      "country": "Spain",
-      "daysNeeded": 4
+      "city": "London",
+      "country": "UK",
+      "daysNeeded": 2
     }
   ]
 }
