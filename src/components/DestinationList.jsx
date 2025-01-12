@@ -24,7 +24,7 @@ function DestinationList() {
           });
     }
     else if(isError){
-        content = <p>{error}</p>
+        content = <p>Error!!</p>
     }
   return (
     <div className='pt-3'>{content}</div>
