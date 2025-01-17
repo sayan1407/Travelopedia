@@ -7,6 +7,7 @@ import { destinationAPI } from './api/destinationApi';
 import DestinationList from './components/DestinationList';
 import { Provider } from 'react-redux';
 import {store} from './Redux/store';
+import RandomDestination from './components/RandomDestination';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,7 +16,7 @@ root.render(
     <Header/>
     <DestinationIndex/>
     <DestinationList/>
-
+    <RandomDestination/>
     </Provider>
     
   </React.StrictMode>
